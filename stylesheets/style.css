@@ -1,0 +1,84 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  height: 100vh;
+  background-color: #4FC2B6;
+  background-image: url(../assets/background-maragogi.jpg);
+  background-size: 1400px;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#title {
+  padding-left: 40px;
+}
+
+.logo {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+.logo span {
+  color: #4FC2B6;
+}
+
+
+ul {
+  list-style: none;
+  font-weight: 700;
+  padding-right: 40px;
+  
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color: #4FC2B6;
+  transition: 0.3 all;
+}
+
+
+
+h2 {
+  width: 50%;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 60px;  
+  margin: 10px;
+}
+
+p {
+  color: #fff;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main {
+  padding-left: 40px;
+  padding-top: 18%;
+  line-height: 10px;
+}

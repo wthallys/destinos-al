@@ -1,0 +1,94 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #DA2727;
+  font-family: 'Poppins', sans-serif;
+}
+
+#title {
+  padding-left: 40px;
+}
+
+.logo {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #DA2727;
+}
+
+
+ul {
+  list-style: none;
+  font-weight: 700;
+  padding-right: 40px;
+  
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color: #DA2727;
+  transition: 0.3 all;
+}
+
+a#culture {
+  color: #DA2727;
+}
+
+
+
+.culture-cards {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background: white;
+  margin: 15px;
+  position: relative;
+}
+
+.image-card {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.content {
+  padding: 0 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
