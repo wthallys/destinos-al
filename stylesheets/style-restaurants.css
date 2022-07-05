@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 header {
   background-color: #191919;
   display: flex;
@@ -61,7 +60,7 @@ a#restaurants {
 
 
 
-.restaurants-cards {
+.hotels-cards {
   display: flex;
   margin-left: 40px;
   margin-right: 40px;
