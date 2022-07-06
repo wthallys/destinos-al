@@ -73,9 +73,11 @@ a#culture {
 .card {
   width: 300px;
   height: 500px;
-  background: white;
+  background: #fff;
   margin: 15px;
   position: relative;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .image-card {
@@ -91,4 +93,10 @@ a#culture {
 
 h2 {
   font-size: 1.5rem;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 20px;
 }

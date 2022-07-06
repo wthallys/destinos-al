@@ -42,7 +42,6 @@ ul {
   list-style: none;
   font-weight: 700;
   padding-right: 40px;
-  
 }
 
 ul li {
@@ -75,6 +74,7 @@ p {
   margin: 10px;
   font-weight: 700;
   font-size: 20px;
+  line-height: 20px;
 }
 
 main {
